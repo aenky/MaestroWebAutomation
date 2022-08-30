@@ -1,0 +1,53 @@
+{
+  "baseURL": "https://maestro.xeba.tech/",
+  "browserName": "chrome",
+  "allRoleUser": {
+    "userEmail": "qatest016@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "commonRoleUser": {
+    "userEmail": "auto_common_user@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "resourceRoleUser": {
+    "userEmail": "auto_resource_user@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "teamLeadRoleUser": {
+    "userEmail": "auto_lead_resource_user@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "PM_RoleUser": {
+    "userEmail": "auto_project_maestro_user@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "RM_RoleUser": {
+    "userEmail": "auto_release_maestro_user@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "adminRoleUser": {
+    "userEmail": "auto_admin_user@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "scenarioQA": {
+    "userEmail": "auto_scenario_qa@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "scenarioTC": {
+    "userEmail": "auto_scenario_tc@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "AutoScenario": {
+    "userEmail": "auto_scenario_rec@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "AutoResource": {
+    "userEmail": "auto_scenario_rec01@yopmail.com",
+    "password": "QAtest@2020"
+  },
+  "TLResource": {
+    "userEmail": "auto_scenario_tl@yopmail.com",
+    "password": "QAtest@2020"
+  }
+
+}
