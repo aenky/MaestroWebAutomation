@@ -11,10 +11,10 @@ import org.openqa.selenium.WebDriverException;
 
 public class ServiceHook {
     public static WebDriver driver = null;
-    public Scenario scenario;
+    public static Scenario scenario;
     @Before
     public void openBrowser(Scenario scenario) {
-        this.scenario = scenario;
+        ServiceHook.scenario = scenario;
         driver= SeleniumMethods.initBrowser();
     }
 

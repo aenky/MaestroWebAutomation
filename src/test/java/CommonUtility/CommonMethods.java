@@ -31,10 +31,9 @@ public class CommonMethods {
     static String childWindow="";
 
     public static void logInfo(String msg){
-        ServiceHook serviceHook=new ServiceHook();
         log.info(msg);
         //System.out.println(msg);
-        serviceHook.scenario.write("=> "+msg);
+        ServiceHook.scenario.write("=> "+msg);
     }
 
     public static void browserZoomIn() throws AWTException {
