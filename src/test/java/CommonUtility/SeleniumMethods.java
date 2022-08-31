@@ -3,6 +3,7 @@ package CommonUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -23,7 +24,10 @@ public class SeleniumMethods {
         String browserName= config.getBrowserName();
         if(browserName.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+            //driver = new ChromeDriver();
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("window-size=1936,1056");
+            driver = new ChromeDriver(chromeOptions);
         }
         if(browserName.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
