@@ -1,5 +1,5 @@
 {
-  "baseURL": "https://maestro.xeba.tech/",
+  "baseURL": "https://dev1-maestro.rouztech.com/",
   "browserName": "chrome",
   "allRoleUser": {
     "userEmail": "qatest016@yopmail.com",
